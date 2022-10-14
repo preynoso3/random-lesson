@@ -26,3 +26,12 @@ print(list(my_list))
 my_list = list(my_list)
 shuffle(my_list)
 print(my_list)
+
+# challenge
+new_list = randint(1,201)
+print("New list")
+print(new_list)
+if new_list%2 == 0:
+  print("It is even")
+else:
+  print("It is odd")
